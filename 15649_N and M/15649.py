@@ -19,7 +19,7 @@ def go(index, M, N):
             go(index+1, M, N)
             c[i] = False
 
-if __name__ == '__main__':
+if __name__ == '__ma4in__':
     a = [0] * 10
     c = [False] * 10
     main()
