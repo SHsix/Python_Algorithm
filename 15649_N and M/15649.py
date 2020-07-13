@@ -4,7 +4,7 @@ def main():
     r = lambda:sys.stdin.readline().split()
     
     N, M = map(int, r())
-    go(0, M, N) # 0, 3, 1
+    go(0, M, N) # 0, 1, 3
 
 def go(index, M, N):
     if index == M:
@@ -19,7 +19,7 @@ def go(index, M, N):
             go(index+1, M, N)
             c[i] = False
 
-if __name__ == '__ma4in__':
+if __name__ == '__main__':
     a = [0] * 10
     c = [False] * 10
     main()
